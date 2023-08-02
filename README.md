@@ -1,6 +1,6 @@
 # Project_Portfolio
 
-This is my directory for project portfolio
+This is the repository for my project portfolio
 
 My guideline for how I organized the directory:
 
@@ -23,5 +23,13 @@ Project description:
 Practice for Explanatory Data Analysis. 
 
 Data source: https://www.kaggle.com/datasets/shivamb/underwater-surface-temperature-dataset
+
+
+2. Olympic Medalist:
+
+This is my practice for Tableau skills.
+
+https://leedh7878.github.io/DanielLee_Project_Portfolio/
+
 
 
