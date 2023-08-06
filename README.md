@@ -13,7 +13,7 @@ Good Enough Practices for Scientific Computing gives the following recommendatio
 4. Put source for the project’s scripts and programs in the src directory, and programs brought in from elsewhere or compiled locally in the bin directory.
 5. Name all files to reflect their content or function.
 
-Source: https://swcarpentry.github.io/r-novice-gapminder/02-project-intro/index.html
+Source: [https://swcarpentry.github.io/r-novice-gapminder/02-project-intro/index.html](https://swcarpentry.github.io/r-novice-gapminder/02-project-intro.html#best-practices-for-project-organization)
 
 
 # Project description:
