@@ -27,7 +27,9 @@ Data source: https://www.kaggle.com/datasets/shivamb/underwater-surface-temperat
 
 ## [Project 2. Olympic Medalist:](https://public.tableau.com/app/profile/donghyun6358/viz/Personal_Project_16906002812120/Dashboard1)
 
-This is my practice for Tableau skills.
+source file: can be found in 
+https://public.tableau.com/app/resources/sample-data
+
 
 
 
