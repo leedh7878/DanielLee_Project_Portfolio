@@ -30,7 +30,7 @@ Data source: https://www.kaggle.com/datasets/shivamb/underwater-surface-temperat
 Data Source: https://public.tableau.com/app/resources/sample-data
 
 
-# [Project 3. Food Choices:](https://github.com/leedh7878/DanielLee_Project_Portfolio/tree/main/Food_Choice/src)
+## [Project 3. Food Choices:](https://github.com/leedh7878/DanielLee_Project_Portfolio/blob/main/Food_Choice/src/Food_Choice_%20Data_Cleansing.ipynb)
 
 
 
