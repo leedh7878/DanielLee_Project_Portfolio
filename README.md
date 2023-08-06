@@ -16,20 +16,20 @@ Good Enough Practices for Scientific Computing gives the following recommendatio
 Source: https://swcarpentry.github.io/r-novice-gapminder/02-project-intro/index.html
 
 
-Project description:
+# Project description:
 
-1. Underwater Surface Temperature Data:
+## 1. Underwater Surface Temperature Data:
 
 Practice for Explanatory Data Analysis. 
 
 Data source: https://www.kaggle.com/datasets/shivamb/underwater-surface-temperature-dataset
 
 
-2. Olympic Medalist:
+## [2. Olympic Medalist:] (https://public.tableau.com/app/profile/donghyun6358/viz/Personal_Project_16906002812120/Dashboard1)
 
 This is my practice for Tableau skills.
 
-https://leedh7878.github.io/DanielLee_Project_Portfolio/
+
 
 
 
