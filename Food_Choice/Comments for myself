@@ -25,7 +25,29 @@ When you use .loc to assign a value to a slice of a DataFrame, it attempts to al
 On the other hand, .at is designed for scalar assignment, meaning it expects a single value to be assigned to a specific location in the DataFrame. It does not perform alignment or attempt to match dimensions. Therefore, if you use .at to assign a value to a slice of a DataFrame, it treats the entire slice as a single location and assigns the value accordingly, without raising an error.
 
 
-일단 
-string 을 바꾸자니 단어가 완전해 같아야함
-however, the data is not clean and it has different form
-so I take a token 
+pandas.plot
+
+kindstr
+The kind of plot to produce:
+
+‘line’ : line plot (default)
+
+‘bar’ : vertical bar plot
+
+‘barh’ : horizontal bar plot
+
+‘hist’ : histogram
+
+‘box’ : boxplot
+
+‘kde’ : Kernel Density Estimation plot
+
+‘density’ : same as ‘kde’
+
+‘area’ : area plot
+
+‘pie’ : pie plot
+
+‘scatter’ : scatter plot (DataFrame only)
+
+‘hexbin’ : hexbin plot (DataFrame only)
