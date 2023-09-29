@@ -18,22 +18,22 @@ Source: [https://swcarpentry.github.io/r-novice-gapminder/02-project-intro/index
 
 # Project description:
 
-## 1. Underwater Surface Temperature Data:
+## [Project 1. Food Choices:](https://github.com/leedh7878/DanielLee_Project_Portfolio/blob/main/Food_Choice/src/Food_Choice_%20Data_Cleansing.ipynb)
 
-Practice for Explanatory Data Analysis. 
+Project for Data cleaning, Natural langugage Processing and Explanatory Data Analysis in Python.
 
-Data source: https://www.kaggle.com/datasets/shivamb/underwater-surface-temperature-dataset
+
+Data Source: https://www.kaggle.com/datasets/borapajo/food-choices
 
 
 ## [Project 2. Olympic Medalist:](https://public.tableau.com/app/profile/donghyun6358/viz/Personal_Project_16906002812120/Dashboard1)
 
 Data Source: https://public.tableau.com/app/resources/sample-data
 
+Project for Tableau.
 
-## [Project 3. Food Choices:](https://github.com/leedh7878/DanielLee_Project_Portfolio/blob/main/Food_Choice/src/Food_Choice_%20Data_Cleansing.ipynb)
+## [Project 2. Water Quality: ](https://github.com/leedh7878/DanielLee_Project_Portfolio/blob/main/Water_Quality_Potability/src/water_quality.ipynb)
 
-
-
-
+Data Source: https://www.kaggle.com/datasets/uom190346a/water-quality-and-potability/data
 
 
