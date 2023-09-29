@@ -32,6 +32,8 @@ Data Source: https://public.tableau.com/app/resources/sample-data
 
 Project for Tableau.
 
+![](https://github.com/leedh7878/DanielLee_Project_Portfolio/blob/main/Tableau_image/Dashboard%201.png)
+
 ## [Project 3. Water Quality: ](https://github.com/leedh7878/DanielLee_Project_Portfolio/blob/main/Water_Quality_Potability/src/water_quality.ipynb)
 
 Data Source: https://www.kaggle.com/datasets/uom190346a/water-quality-and-potability/data
