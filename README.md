@@ -32,7 +32,7 @@ Data Source: https://public.tableau.com/app/resources/sample-data
 
 Project for Tableau.
 
-![](/Tableau_image/Dashboard%201.png)
+![](/Tableau_image/Dashboard_1.png)
 
 ## [Project 3. Water Quality: ](https://github.com/leedh7878/DanielLee_Project_Portfolio/blob/main/Water_Quality_Potability/src/water_quality.ipynb)
 
