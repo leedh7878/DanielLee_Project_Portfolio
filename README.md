@@ -39,5 +39,8 @@ Project for Tableau.
 
 Data Source: https://www.kaggle.com/datasets/uom190346a/water-quality-and-potability/data
 
+![](/Water_Quality_Potability/image/decison_tree.png)
+
+
 
 Refresh the page if the images are not displayed
