@@ -22,7 +22,7 @@ Source: [https://swcarpentry.github.io/r-novice-gapminder/02-project-intro/index
 
 Project for Data cleaning, Natural langugage Processing and Explanatory Data Analysis in Python.
 
-!{}(/Food_Choice/image/NLP.png)
+![](/Food_Choice/image/NLP.png)
 
 Data Source: https://www.kaggle.com/datasets/borapajo/food-choices
 
