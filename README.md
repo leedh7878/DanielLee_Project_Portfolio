@@ -39,7 +39,7 @@ Project for Tableau.
 
 Data Source: https://www.kaggle.com/datasets/uom190346a/water-quality-and-potability/data
 
-![](/Water_Quality_Potability/image/decison_tree.png)
+![](/Water_Quality_Potability/image/decision_tree.png)
 
 
 
