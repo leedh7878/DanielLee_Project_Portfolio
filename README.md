@@ -22,6 +22,7 @@ Source: [https://swcarpentry.github.io/r-novice-gapminder/02-project-intro/index
 
 Project for Data cleaning, Natural langugage Processing and Explanatory Data Analysis in Python.
 
+!{}(/Food_Choice/image/NLP.png)
 
 Data Source: https://www.kaggle.com/datasets/borapajo/food-choices
 
@@ -39,3 +40,4 @@ Project for Tableau.
 Data Source: https://www.kaggle.com/datasets/uom190346a/water-quality-and-potability/data
 
 
+Refresh the page if the images are not displayed
