@@ -2,7 +2,7 @@
 
 This is the repository for my project portfolio
 
-## My [guideline](https://github.com/leedh7878/DanielLee_Project_Portfolio/blob/main/References/organization) for how I organized the repositories: 
+## My [guideline](https://github.com/leedh7878/DanielLee_Project_Portfolio/blob/main/References/page_organization) for how I organized the repositories: 
 
 
 
