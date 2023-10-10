@@ -34,9 +34,9 @@ Data Source: https://www.kaggle.com/datasets/uom190346a/water-quality-and-potabi
 
 ## [Project 4. Yelp Data: ]()
 
-![](/Yelp_Data/Images/Yelp_sc1.png){:height="36px" width="36px"}.
+![](/Yelp_Data/Images/Yelp_sc1.png)
 
-<img src="/Yelp_Data/Images/Yelp_sc1.png" alt="Image Description" width="300" height="200">
+<img src="/Yelp_Data/Images/Yelp_sc1.png" alt="Image Description" width="600" height="400">
 
 
 ![](/Yelp_Data/Images/Yelp_sc2.png)
