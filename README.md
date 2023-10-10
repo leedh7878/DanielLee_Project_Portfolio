@@ -2,16 +2,14 @@
 
 This is the repository for my project portfolio
 
-## My [guideline](https://github.com/leedh7878/DanielLee_Project_Portfolio/blob/main/References/page_organization) for how I organized the repositories: 
-
+## Here's My [guideline](https://github.com/leedh7878/DanielLee_Project_Portfolio/blob/main/References/page_organization) for how I organized the repositories: 
 
 
 # Project description:
 
 ## [Project 1. Food Choices:](https://github.com/leedh7878/DanielLee_Project_Portfolio/blob/main/Food_Choice/src/Food_Choice_%20Data_Cleansing.ipynb)
 
-
-Project for Data cleaning, Natural langugage Processing and Explanatory Data Analysis in Python.
+- Project for Data cleaning, Natural langugage Processing and Explanatory Data Analysis in Python.
 
 Did simple explanatory analysis
 
@@ -36,7 +34,7 @@ Data Source: https://www.kaggle.com/datasets/uom190346a/water-quality-and-potabi
 
 ## [Project 4. Yelp Data: ]()
 
-![](/Yelp_Data/Images/Yelp_sc1.png)
+![](/Yelp_Data/Images/Yelp_sc1.png = 150*100)
 
 ![](/Yelp_Data/Images/Yelp_sc2.png)
 
