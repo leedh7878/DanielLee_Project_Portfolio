@@ -24,7 +24,7 @@ Data Source: https://public.tableau.com/app/resources/sample-data
 
 Project for Tableau.
 
-![](/Tableau_image/Dashboard_1.png)
+![](/Tableau_images/Dashboard_1.png)
 
 ## [Project 3. Water Quality: ](https://github.com/leedh7878/DanielLee_Project_Portfolio/blob/main/Water_Quality_Potability/src/water_quality.ipynb)
 
@@ -35,8 +35,6 @@ Data Source: https://www.kaggle.com/datasets/uom190346a/water-quality-and-potabi
 ## [Project 4. Yelp Data: ]()
 
 ![](/Yelp_Data/Images/Yelp_sc1.png)
-
-<img src="/Yelp_Data/Images/Yelp_sc1.png" alt="Image Description" width="600" height="400">
 
 
 ![](/Yelp_Data/Images/Yelp_sc2.png)
