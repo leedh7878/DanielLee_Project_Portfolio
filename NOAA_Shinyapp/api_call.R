@@ -1,7 +1,10 @@
 library(httr)
 library(jsonlite)
+library(dotenv)
 
-api_token = 'Please enter your token here'
+dotenv::load_dot_env()
+
+api_token = Sys.getenv("API_KEY") #enter your token
 
 format_url <- function(types){
   formatted_url <- paste("https://www.ncei.noaa.gov/cdo-web/api/v2/", types, sep = "")
@@ -45,8 +48,6 @@ stations_wa_obj = rawToRobj(stations_wa_url)
 stations_wa =stations_wa_obj$results[,c('name','latitude','longitude', 'id')]
 
 
-
-
 list_year <- list()
 
 endpoint = 'data'
@@ -62,7 +63,6 @@ query_params <- list(
 )
 
 
-
 for (i in 2000:2003){
   start_date = paste(as.character(i),"-01-01",sep="")
   end_date = paste(as.character(i),"-12-31",sep="")
@@ -70,19 +70,19 @@ for (i in 2000:2003){
   query_params$enddate = end_date  
   query_params$offset = 1
   
-  
-  n_row = 1000
+  number_of_rows <- 1000
   
   df_year = data.frame()
-  while(n_row == 1000){
+  
+  while(number_of_rows ==1000){
     query_string <- paste(names(query_params), query_params, sep = "=", collapse = "&")
     concat_query <- paste(endpoint, '?', query_string, sep="")
+    print(concat_query)
     
     df <- rawToRobj(format_url(concat_query))
     df <- df$results
-    
-    n_row = nrow(df)
-    
+    number_of_rows <- nrow(df)
+
     query_params$offset <-query_params$offset + 1000
     
     df_year = rbind(df_year, df)

@@ -1,0 +1,12 @@
+name: NOAA_Shinyapp
+title: NOAA_Shinyapp
+username: leedh7878
+account: leedh7878
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 10465800
+bundleId: 7905341
+url: https://leedh7878.shinyapps.io/NOAA_Shinyapp/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
