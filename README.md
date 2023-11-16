@@ -51,7 +51,7 @@ Refresh the page if the images are not displayed
 
 ## [Project 5. R Project: Shiny app to visualize precipitation data in Washington State](https://github.com/leedh7878/DanielLee_Project_Portfolio/tree/main/NOAA_Shinyapp)
 
-[Shiny Application](https://leedh7878.shinyapps.io/NOAA_Shinyapp/)
+[Click on this link to access the Shiny application](https://leedh7878.shinyapps.io/NOAA_Shinyapp/)
 
 - Develop a Shiny app to access and efficiently present precipitation data for weather stations in Washington State, sourced from the NOAA API
 
