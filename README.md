@@ -13,9 +13,7 @@ This is the repository for my project portfolio
 
 - use the grammr to tokenize the string vlaue and finding the grammar(pattern) that extract the string value that I want to collect
 
-- d
-
-![](/Food_Choice/image/NLP.png)
+<img src="/Food_Choice/image/NLP.png" width="75%" height="75%">
 
 Data Source: https://www.kaggle.com/datasets/borapajo/food-choices
 
@@ -26,7 +24,7 @@ Data Source: https://public.tableau.com/app/resources/sample-data
 
 Project for Tableau.
 
-![](/Tableau_images/Dashboard_1.png)
+<img src="/Tableau_images/Dashboard_1.png" width="75%" height="75%">
 
 ## [Project 3. Water Quality: ](https://github.com/leedh7878/DanielLee_Project_Portfolio/blob/main/Water_Quality_Potability/src/water_quality.ipynb)
 
@@ -40,12 +38,8 @@ Data Source: https://www.kaggle.com/datasets/uom190346a/water-quality-and-potabi
 
 <img src="/Yelp_Data/Images/Yelp_sc1.png" width="75%" height="75%">
 
+<img src="/Yelp_Data/Images/Yelp_sc2.png" width="75%" height="75%">
 
-![](/Yelp_Data/Images/Yelp_sc1.png)
-
-
-
-![](/Yelp_Data/Images/Yelp_sc2.png)
 
  - Build an ETL pipeline for transforming JSON files into SQL data.
  - 
