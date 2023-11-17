@@ -44,8 +44,6 @@ Data Source: https://www.kaggle.com/datasets/uom190346a/water-quality-and-potabi
  - Build an ETL pipeline for transforming JSON files into SQL data.
  - 
 
-Refresh the page if the images are not displayed
-
 
 ## [Project 5. R Project: Shiny app to visualize precipitation data in Washington State](https://github.com/leedh7878/DanielLee_Project_Portfolio/tree/main/NOAA_Shinyapp)
 
@@ -59,4 +57,6 @@ Refresh the page if the images are not displayed
 
 - Implement a bar graph that highlights the top 5 areas (stations) with the highest recorded precipitation levels.
 
-- Display the precipitation data on a map, utilizing circles where the size of each circle corresponds to the precipitation value.
+
+
+Refresh the page if the images are not displayed
