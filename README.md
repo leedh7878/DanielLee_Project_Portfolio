@@ -13,7 +13,7 @@ This is the repository for my project portfolio
 
 - use the grammr to tokenize the string vlaue and finding the grammar(pattern) that extract the string value that I want to collect
 
-<img src="/Food_Choice/image/NLP.png" width="75%" height="75%">
+<img src="/Food_Choice/image/NLP.png" width=50%" height="50%">
 
 Data Source: https://www.kaggle.com/datasets/borapajo/food-choices
 
