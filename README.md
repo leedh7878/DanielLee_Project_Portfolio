@@ -37,7 +37,7 @@ Data Source: https://public.tableau.com/app/resources/sample-data
 
 ## [Project 3. Water Quality: ](https://github.com/leedh7878/DanielLee_Project_Portfolio/blob/main/Water_Quality_Potability/src/water_quality.ipynb)
 
-<img src="/Water_Quality_Potability/image/decision_tree.png" width= "50%" height="50%">
+<img src="/Water_Quality_Potability/images/decision_tree.png" width= "50%" height="50%">
 
 
 ## [Project 4. Yelp Data: ]()
