@@ -16,9 +16,7 @@ This is the repository for my project portfolio
 <img src="/Food_Choice/image/NLP.png" width= "50%" height="50%">
 
 
-## [Project 2. Olympic Medalist:](https://public.tableau.com/app/profile/donghyun6358/viz/Personal_Project_16906002812120/Dashboard1)
-
-Data Source: https://public.tableau.com/app/resources/sample-data
+## [Project 2. Tableau Project: Olympic Medalist](https://public.tableau.com/app/profile/donghyun6358/viz/Personal_Project_16906002812120/Dashboard1)
 
 - The objective of this project is to visualize the number of medals earned in the Olympics.
 
@@ -32,14 +30,14 @@ Data Source: https://public.tableau.com/app/resources/sample-data
 
 - The bar graph will provide a clear and concise overview of medal counts based on the selected filters.
 
+Data Source: https://public.tableau.com/app/resources/sample-data
+
 <img src="/Tableau_images/Dashboard_1.png" width="75%" height="75%">
+
 
 ## [Project 3. Water Quality: ](https://github.com/leedh7878/DanielLee_Project_Portfolio/blob/main/Water_Quality_Potability/src/water_quality.ipynb)
 
-Data Source: https://www.kaggle.com/datasets/uom190346a/water-quality-and-potability/data
-
-![](/Water_Quality_Potability/image/decision_tree.png)
-
+<img src="/Water_Quality_Potability/image/decision_tree.png" width= "50%" height="50%">
 
 
 ## [Project 4. Yelp Data: ]()
