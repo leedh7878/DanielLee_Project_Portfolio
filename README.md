@@ -11,7 +11,11 @@ This is the repository for my project portfolio
 
 - Engaging in a Python project focused on tasks such as data cleaning, natural language processing, and exploratory data analysis.
 
+- The NLTK package was employed to optimize natural language processing.
+
 - Create a grammar to extract food item names from unformatted strings and present them in a list format.
+
+Data Source: https://www.kaggle.com/datasets/borapajo/food-choices- 
 
 <img src="/Food_Choice/image/NLP.png" width= "50%" height="50%">
 
@@ -37,10 +41,10 @@ Data Source: https://public.tableau.com/app/resources/sample-data
 
 ## [Project 3. Water Quality: ](https://github.com/leedh7878/DanielLee_Project_Portfolio/blob/main/Water_Quality_Potability/src/water_quality.ipynb)
 
-<img src="/Water_Quality_Potability/images/decision_tree.png" width= "50%" height="50%">
+<img src="/Water_Quality_Potability/images/decision_tree.png" width= "100%" height="100%">
 
 
-## [Project 4. Yelp Data: ]()
+## [Project 4. SQL Application: Build an application utilizing Yelp data through effective SQL implementatio]()
 
 <img src="/Yelp_Data/Images/Yelp_sc1.png" width="75%" height="75%">
 
