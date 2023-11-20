@@ -46,9 +46,9 @@ Data Source: https://public.tableau.com/app/resources/sample-data
 
 ## [Project 4. SQL Application: Build an application utilizing Yelp data through effective SQL implementation](https://github.com/leedh7878/DanielLee_Project_Portfolio/tree/main/Yelp_Data)
 
-<img src="/Yelp_Data/Images/Yelp_sc1.png" width="75%" height="75%">
+<img src="/Yelp_Data/Images/Yelp_sc1.png" width="75%" height="50%">
 
-<img src="/Yelp_Data/Images/Yelp_sc2.png" width="75%" height="75%">
+<img src="/Yelp_Data/Images/Yelp_sc2.png" width="75%" height="50%">
 
  - Build an ETL pipeline for transforming JSON files into SQL data.
 
