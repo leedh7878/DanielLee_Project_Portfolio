@@ -44,15 +44,19 @@ Data Source: https://public.tableau.com/app/resources/sample-data
 <img src="/Water_Quality_Potability/images/decision_tree.png" width= "100%" height="100%">
 
 
-## [Project 4. SQL Application: Build an application utilizing Yelp data through effective SQL implementatio]()
+## [Project 4. SQL Application: Build an application utilizing Yelp data through effective SQL implementation](https://github.com/leedh7878/DanielLee_Project_Portfolio/tree/main/Yelp_Data)
 
 <img src="/Yelp_Data/Images/Yelp_sc1.png" width="75%" height="75%">
 
 <img src="/Yelp_Data/Images/Yelp_sc2.png" width="75%" height="75%">
 
-
  - Build an ETL pipeline for transforming JSON files into SQL data.
- - 
+
+ - [Design the Database schema](https://github.com/leedh7878/DanielLee_Project_Portfolio/tree/main/Yelp_Data/DBSchema)
+
+ - The database generates new aggregate data, including sums and counts, derived from the existing dataset
+
+ - The user interface, built with PyQt5, will display both aggregated data and the complete dataset.
 
 
 ## [Project 5. R Project: Shiny app to visualize precipitation data in Washington State](https://github.com/leedh7878/DanielLee_Project_Portfolio/tree/main/NOAA_Shinyapp)
