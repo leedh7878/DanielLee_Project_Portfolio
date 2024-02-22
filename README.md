@@ -7,7 +7,7 @@ This is the repository for my project portfolio
 
 # Project description:
 
-## [Project 1. NLP Python Project: Food choices and preferences of college students:](https://github.com/leedh7878/DanielLee_Project_Portfolio/blob/main/Food_Choice/src/Food_Choice_%20Data_Cleansing.ipynb)
+## [Project 1. NLP Python Project: College students' food and cooking preferences:](https://github.com/leedh7878/DanielLee_Project_Portfolio/blob/main/Food_Choice/src/Food_Choice_%20Data_Cleansing.ipynb)
 
 - Engaging in a Python project focused on tasks such as data cleaning, natural language processing, and exploratory data analysis.
 
@@ -41,10 +41,20 @@ Data Source: https://public.tableau.com/app/resources/sample-data
 
 ## [Project 3. Water Quality: ](https://github.com/leedh7878/DanielLee_Project_Portfolio/blob/main/Water_Quality_Potability/src/water_quality.ipynb)
 
-<img src="/Water_Quality_Potability/images/decision_tree.png" width= "100%" height="100%">
+Data source: https://www.kaggle.com/datasets/uom190346a/water-quality-and-potability
+
+- Imputation and oversampling techniques have been applied for the first time, although their impact on the data outcome remains uncertain.
+
+- Various classification methods have been utilized to assess the accuracy of predictions.
+
+- ROC curves and confusion matrices have been generated for visualization.
+
+
+<img src="/Water_Quality_Potability/images/nb_1.png" width= "100%" height="100%">
 
 
 ## [Project 4. SQL Application: Build an application utilizing Yelp data through effective SQL implementation](https://github.com/leedh7878/DanielLee_Project_Portfolio/tree/main/Yelp_Data)
+
 
 <img src="/Yelp_Data/Images/Yelp_sc1.png" width="59%" height="50%">
 
@@ -57,7 +67,6 @@ Data Source: https://public.tableau.com/app/resources/sample-data
  - The database generates new aggregate data, including sums and counts, derived from the existing dataset
 
  - The user interface, built with PyQt5, will display both aggregated data and the complete dataset.
-
 
 ## [Project 5. R Project: Shiny app to visualize precipitation data in Washington State](https://github.com/leedh7878/DanielLee_Project_Portfolio/tree/main/NOAA_Shinyapp)
 
