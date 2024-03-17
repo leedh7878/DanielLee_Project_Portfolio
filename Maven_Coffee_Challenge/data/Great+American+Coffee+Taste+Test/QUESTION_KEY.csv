@@ -1,0 +1,57 @@
+﻿Question Order,Question,Survey Section,Question Type,Answer Choices,Notes
+1,What is your age?,Background Information,Single select,"<18 years old, 18-24, 25-34, 35-44, 45-54, 55-64, >65",
+2,How many cups of coffee do you typically drink per day?,Background Information,Single select,"Less than 1, 1, 2, 3, 4, More than 4",
+3,Where do you typically drink coffee?,Background Information,Multiple selection,"None of these, At home, At a cafe, On the go, At the office",
+4,"On the go, where do you typically purchase coffee?",Background Information,Multiple selection,"Other, Drive-thru, Specialty coffee shop, National chain (e.g. Starbucks, Dunkin), Local cafe, Deli or supermarket","Only available if ""On the go"" was selected in question 3"
+5,Where else do you purchase coffee?,Background Information,Text,,"Only available if ""Other"" was selected in question 4"
+6,How do you brew coffee at home?,Background Information,Multiple selection,"Pour over, French press, Espresso, Coffee brewing machine (e.g. Mr. Coffee), Pod/capsule machine (e.g. Keurig/Nespresso), Instant coffe, Bean-to-cup machine, Coffee extract (e.g. Cometeer), Cold brew, Other",
+7,How else do you brew coffee at home?,Background Information,Text,,"Only available if ""Other"" was selected in question 6"
+8,What is your favorite coffee drink?,Background Information,Single select,"Blended drink, Cold brew, Espresso, Mocha, Latte, Pourover, Regular drip coffee, Americano, Cappuccino, Iced coffee, Cortado, Other",
+9,Please specify what your favorite coffee drink is,Background Information,Text,,"Only available if ""Other"" was selected in question 8"
+10,Do you usually add anything to your coffee?,Background Information,Multiple selection,"No - just black, Milk / dairy alternative / coffee creamer, Sugar / sweetener, Flavor syrup, Other",
+11,What else do you add to your coffee?,Background Information,Text,,"Only available if ""Other"" was selected in question 10"
+12,What kind of dairy do you add?,Background Information,Multiple selection,"Whole milk, Skim milk, Half and half, Coffee creamer, Flavored coffee creamer, Oat milk, Almond milk, Soy milk","Only available if ""Milk / dairy alternative / coffee creamer"" was selected in question 10"
+13,What kind of sugar or sweetener do you add?,Background Information,Multiple selection,"Granulated sugar, Artificial sweeteners (e.g. Splenda), Honey, Maple syrup, Stevia, Agave nectar, Brown sugar, Raw sugar (Turbinado)","Only available if ""Sugar / sweetener"" was selected in question 10"
+14,What kind of flavorings do you add?,Background Information,Multiple selection,"Vanilla syrup, Caramel syrup, Hazelnut syrup, Cinnamon (Ground or Stick), Peppermint Syrup, Other","Supposedly available if ""Flavor syrup"" was selected in question 10, but it doesn't render in the survey website"
+15,What other flavoring do you use?,Background Information,Text,,"Supposedly available if ""Other"" was selected in question 14, but it doesn't render in the survey website"
+16,"Before today's tasting, which of the following best described what kind of coffee you like?",Background Information,Single select,"Chocolatey, Fruity, Floral, Full Bodied, Sweet, Nutty, Bold, Caramalized, Bright, Juicy",
+17,How strong do you like your coffee?,Background Information,Single select,"Very strong, Somewhat strong, Medium, Somewhat light, Weak",
+18,What roast level of coffee do you prefer?,Background Information,Single select,"Dark, Medium, Light, Blonde, French, Nordic, Italian",
+19,How much caffeine do you like in your coffee?,Background Information,Single select,"Full caffeine, Half caff, Decaf",
+20,"Lastly, how would you rate your own coffee expertise?",Background Information,Number scale,"1 [novice], 2, 3, 4, 5, 6, 7, 8, 9, 10 [expert]",
+21,Coffee A - Bitterness,Taste Test Preferences,Number scale,"1 [low], 2, 3, 4, 5 [high]",
+22,Coffee A - Acidity,Taste Test Preferences,Number scale,"1 [low], 2, 3, 4, 5 [high]",
+23,Coffee A - Personal Preference,Taste Test Preferences,Number scale,"1 [dislike], 2, 3 [neutral], 4, 5 [like]",
+24,Coffee A - Notes,Taste Test Preferences,Text,,
+25,Coffee B - Bitterness,Taste Test Preferences,Number scale,"1 [low], 2, 3, 4, 5 [high]",
+26,Coffee B - Acidity,Taste Test Preferences,Number scale,"1 [low], 2, 3, 4, 5 [high]",
+27,Coffee B - Personal Preference,Taste Test Preferences,Number scale,"1 [dislike], 2, 3 [neutral], 4, 5 [like]",
+28,Coffee B - Notes,Taste Test Preferences,Text,,
+29,Coffee C - Bitterness,Taste Test Preferences,Number scale,"1 [low], 2, 3, 4, 5 [high]",
+30,Coffee C - Acidity,Taste Test Preferences,Number scale,"1 [low], 2, 3, 4, 5 [high]",
+31,Coffee C - Personal Preference,Taste Test Preferences,Number scale,"1 [dislike], 2, 3 [neutral], 4, 5 [like]",
+32,Coffee C - Notes,Taste Test Preferences,Text,,
+33,Coffee D - Bitterness,Taste Test Preferences,Number scale,"1 [low], 2, 3, 4, 5 [high]",
+34,Coffee D - Acidity,Taste Test Preferences,Number scale,"1 [low], 2, 3, 4, 5 [high]",
+35,Coffee D - Personal Preference,Taste Test Preferences,Number scale,"1 [dislike], 2, 3 [neutral], 4, 5 [like]",
+36,Coffee D - Notes,Taste Test Preferences,Text,,
+37,"Between Coffee A, Coffee B, and Coffee C which did you prefer?",Taste Test Preferences,Single select,"A, B, C",
+38,"Between Coffee A and Coffee D, which did you prefer?",Taste Test Preferences,Single select,"A, D",
+39,"Lastly, what was your favorite overall coffee?",Taste Test Preferences,Single select,"A, B, C, D",
+40,Do you work from home or in person?,Additional Questions,Single select,"I primarily work in person, I primarily work from home, I do a mix of both",
+41,"In total, much money do you typically spend on coffee in a month?",Additional Questions,Single select,"<$20, $20-$40, $40-$60, $60-$80, $80-$100, >$100",
+42,Why do you drink coffee?,Additional Questions,Multiple selection,"It tastes good, I need the caffeine, I need the ritual, It makes me go to the bathroom, Other",
+43,Other reason for drinking coffee,Additional Questions,Text,,"Only available if ""Other"" was selected in question 42"
+44,Do you like the taste of coffee?,Additional Questions,Yes/No,"Yes, No",
+45,Do you know where your coffee comes from?,Additional Questions,Yes/No,"Yes, No",
+46,What is the most you've ever paid for a cup of coffee?,Additional Questions,Single select,"Less than $2, $2-$4, $4-$6, $6-$8, $8-$10, $10-$15, $15-$20, More than $20",
+47,What is the most you'd ever be willing to pay for a cup of coffee?,Additional Questions,Single select,"Less than $2, $2-$4, $4-$6, $6-$8, $8-$10, $10-$15, $15-$20, More than $20",
+48,Do you feel like you’re getting good value for your money when you buy coffee at a cafe?,Additional Questions,Yes/No,"Yes, No",
+49,Approximately how much have you spent on coffee equipment in the past 5 years?,Additional Questions,Single select,"Less than $20, $20-$50, $50-$100, $100-$300, $300-$500, $500-$1000, More than $1,000",
+50,Do you feel like you’re getting good value for your money with regards to your coffee equipment?,Additional Questions,Yes/No,"Yes, No",
+51,Gender,Additional Questions,Single select,"Male, Female, Non-binary, Prefer not to say, Other",
+52,Education Level,Additional Questions,Single select,"Less than high school, High school graduate, Some college or associate's degree, Bachelor's degree, Master's degree, Doctorate or professional degree",
+53,Ethnicity/Race,Additional Questions,Single select,"Asian/Pacific Islander, Black/African American, Hispanic/Latino, Native American/Alaska Native, White/Caucasian, Other",
+54,Employment Status,Additional Questions,Single select,"Employed full-time, Employed part-time, Homemaker, Retired, Student, Unemployed",
+55,Number of Children,Additional Questions,Single select,"None, 1, 2, 3, More than 3",
+56,Political Affiliation,Additional Questions,Single select,"Democrat, Independent, No affiliation, Republican",
