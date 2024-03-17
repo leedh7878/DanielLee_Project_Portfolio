@@ -81,5 +81,25 @@ Data source: https://www.kaggle.com/datasets/uom190346a/water-quality-and-potabi
 - Implement a bar graph that highlights the top 5 areas (stations) with the highest recorded precipitation levels.
 
 
+## [Project 6. Power BI Project: Maven Coffee Challenge ("The Great American Coffee Taste Test")](https://mavenanalytics.io/project/13111)
+
+- Employ Power Query for comprehensive data transformation, including cleaning, pivoting, and merging operations.
+
+- Normalized a substantial dataset from a single file, comprising multiple tables, and established a coherent data model complete with relationships.
+
+- Generated explicit measures using DAX functions.
+
+- Designed an interactive report providing a comprehensive overview of data from "The Great American Coffee Taste Test."
+
+- Created visuals including matrices, bar charts, donut charts, treemaps, and decomposition trees.
+
+Data Source: https://mavenanalytics.io/challenges/maven-coffee-challenge/30
+
+<img src="/Maven_Coffee_Challenge/image/maven_coffe_challenge/1710652434027-0f131c12-359b-46d8-8126-4568c496e6ac_1.jpg " width="59%" height="50%">
+<img src="/Maven_Coffee_Challenge/image/maven_coffe_challenge/1710652434027-0f131c12-359b-46d8-8126-4568c496e6ac_2.jpg " width="59%" height="50%">
+<img src="/Maven_Coffee_Challenge/image/maven_coffe_challenge/1710652434027-0f131c12-359b-46d8-8126-4568c496e6ac_3.jpg " width="59%" height="50%">
+<img src="/Maven_Coffee_Challenge/image/maven_coffe_challenge/1710652434027-0f131c12-359b-46d8-8126-4568c496e6ac_4.jpg " width="59%" height="50%">
+<img src="/Maven_Coffee_Challenge/image/maven_coffe_challenge/1710652434027-0f131c12-359b-46d8-8126-4568c496e6ac_5.jpg " width="59%" height="50%">
+
 
 Refresh the page if the images are not displayed
