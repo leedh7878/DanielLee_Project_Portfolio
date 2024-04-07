@@ -101,7 +101,7 @@ Data Source: https://mavenanalytics.io/challenges/maven-coffee-challenge/30
 
 ## [Project 7. 2nd SQL Personal Project: Bike ](https://github.com/leedh7878/DanielLee_Project_Portfolio/tree/main/Bike_Store_Relational_Database_SQL)
 
-[ER Diagram:]("https://github.com/leedh7878/DanielLee_Project_Portfolio/tree/main/Bike_Store_Relational_Database_SQL/src/ER_diagram.jpg")
+[ER Diagram:](https://github.com/leedh7878/DanielLee_Project_Portfolio/tree/main/Bike_Store_Relational_Database_SQL/src/ER_diagram.jpg)
 
 
 Refresh the page if the images are not displayed
