@@ -101,5 +101,9 @@ Data Source: https://mavenanalytics.io/challenges/maven-coffee-challenge/30
 <img src="/Maven_Coffee_Challenge/image/maven_coffe_challenge/1710652434027-0f131c12-359b-46d8-8126-4568c496e6ac_4.jpg " width="59%" height="50%">
 <img src="/Maven_Coffee_Challenge/image/maven_coffe_challenge/1710652434027-0f131c12-359b-46d8-8126-4568c496e6ac_5.jpg " width="59%" height="50%">
 
+## [Project 7. 2nd SQL Personal Project: Bike ](https://github.com/leedh7878/DanielLee_Project_Portfolio/Bike_Store_Relational_Database_SQL)
+
+<img src="/Bike_Store_Relational_Database_SQL/src/ER_diagram.jpg " width="59%" height="50%">
+
 
 Refresh the page if the images are not displayed
