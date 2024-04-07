@@ -50,7 +50,7 @@ Data source: https://www.kaggle.com/datasets/uom190346a/water-quality-and-potabi
 - ROC curves and confusion matrices have been generated for visualization.
 
 
-<img src="/Water_Quality_Potability/images/nb_1.png" width= "100%" height="100%">
+<img src="/Water_Quality_Potability/images/nb_1.png" width= "75%" height="75%">
 
 
 ## [Project 4. SQL Application: Build an application utilizing Yelp data through effective SQL implementation](https://github.com/leedh7878/DanielLee_Project_Portfolio/tree/main/Yelp_Data)
@@ -101,9 +101,7 @@ Data Source: https://mavenanalytics.io/challenges/maven-coffee-challenge/30
 
 ## [Project 7. 2nd SQL Personal Project: Bike ](https://github.com/leedh7878/DanielLee_Project_Portfolio/tree/main/Bike_Store_Relational_Database_SQL)
 
-ER diagram:
-
-<img src="/Bike_Store_Relational_Database_SQL/src/ER_diagram.jpg " width="75%" height="75%">
+[ER Diagram]("/Bike_Store_Relational_Database_SQL/src/ER_diagram.jpg")
 
 
 Refresh the page if the images are not displayed
