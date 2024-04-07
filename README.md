@@ -103,7 +103,8 @@ Data Source: https://mavenanalytics.io/challenges/maven-coffee-challenge/30
 
 ## [Project 7. 2nd SQL Personal Project: Bike ](https://github.com/leedh7878/DanielLee_Project_Portfolio/Bike_Store_Relational_Database_SQL)
 
-<img src="/Bike_Store_Relational_Database_SQL/src/ER_diagram.jpg " width="59%" height="50%">
+ER diagram:
+<img src="/Bike_Store_Relational_Database_SQL/src/ER_diagram.jpg " width="75%" height="75%">
 
 
 Refresh the page if the images are not displayed
