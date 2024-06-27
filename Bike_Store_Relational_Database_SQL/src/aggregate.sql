@@ -27,3 +27,4 @@ FROM Stocks s
 JOIN Products p ON s.product_id = p.product_id
 JOIN Brands b ON p.brand_id = b.brand_id
 GROUP BY b.brand_name;
+

@@ -74,11 +74,11 @@ def create_schema(db_name:str) -> None:
 
 
 def count_rows(file_name):
-    with open(file_name, 'r', newline='') as file:
+    print(file_name)
+    with open(file_name, 'r', newline='', ) as file:
         reader = csv.reader(file)
         row_count = sum(1 for row in reader)
     return row_count
-
 
 
 def choose_csv_files(file_name:str = None) -> list[str]:
@@ -103,7 +103,6 @@ def choose_csv_files(file_name:str = None) -> list[str]:
         else:
             raise Exception("file name not found")
 
-
 def extract_csvs(db_name: str, file_name:str = None) -> list:
     """
     Function to extract value of csv into list 
@@ -127,8 +126,10 @@ def extract_csvs(db_name: str, file_name:str = None) -> list:
 
             for index,row in df.iterrows():
 
-                insert_value = np.array2string(row.values, separator = ',')[1:-1].replace("nan", "NULL").replace('"',"'")
+                insert_value = np.array2string((row.values), separator = ',')[1:-1].replace("nan", "NULL").replace('"',"'")
                 
+            
+
                 pattern = r"(?<!,|\s)'(?!,|$)"
 
                 modi_insert_value = re.sub(pattern, "''", insert_value)
