@@ -1,0 +1,263 @@
+---
+title: "Analysis on Maternal Health Risk Data"
+output:
+  html_document:
+    df_print: paged
+---
+
+## Introduction:
+<br>
+Maternal health is a critical aspect of public health. Predicting health risks for pregnant patients can enable timely interventions that improve healthcare outcomes, providing personalized care and reducing complications. This project aims to contribute to better maternal healthcare services through predictive modeling.
+
+To further my interest in healthcare and showcase my skills in R programming, I utilized a dataset from Kaggle containing Maternal Health Risk Data. The primary goal of this project is to develop a predictive model to assess health risks for pregnant patients. The project encompasses various steps such as exploratory data analysis, detailed analysis, and deriving a final conclusion, demonstrating my ability to handle real-world data and extract meaningful insights.
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,       # Show R code in the output
+  warning = FALSE,   # Hide warnings in the output
+  message = FALSE,   # Hide messages in the output
+  fig.width = 7,     # Set default figure width
+  fig.height = 5,    # Set default figure height
+  fig.path = "figures/"  # Directory to save figures
+)
+```
+
+### Packages Required
+To analyze this data, we will use the following R packages:
+```{r}
+library(reader)
+library(tidyverse)
+library(ggplot2)
+library(dplyr)
+library(patchwork) # combining ggplot in same graphics
+library(caret) #  Classification And REgression Training
+library(corrplot) #drawing correlogram
+library(RColorBrewer) # color for boxplot
+library(MASS) # for polr
+```
+
+
+## Data Preparation & Summary
+<br>
+https://www.kaggle.com/datasets/csafrit2/maternal-health-risk-data/data
+
+Here's 6 variables of data that has been collected from different hospitals, community clinics, maternal health cares through the IoT based risk monitoring system.
+
+* Age: Age in years when a woman is pregnant.
+* SystolicBP: Upper value of Blood Pressure in mmHg, another significant attribute during pregnancy.
+* DiastolicBP: Lower value of Blood Pressure in mmHg, another significant attribute during pregnancy.
+* BS: Blood glucose levels is in terms of a molar concentration, mmol/L.
+* HeartRate: A normal resting heart rate in beats per minute.
+* Risk Level: Predicted Risk Intensity Level during pregnancy considering the previous attribute.
+
+```{r, message=FALSE}
+# Define the directory containing the CSV files
+data_directory <- "../data"
+
+# List all CSV files in the directory
+
+csv_files <- list.files(path = data_directory, pattern ="\\.csv$", full.names = TRUE)
+
+# Read all CSV files into a list of data frames
+data_list <- lapply(csv_files, read_csv)
+list_frame <- lapply(data_list, as.data.frame)
+
+data_original <- list_frame[[1]]
+
+# data_filtered1 <- data[!duplicated(data), ] # use for any duplicated, in this case, I won't remove them since the data lacks a primary key and it's possible for have same data for multiple people
+
+#Even though I am currently working with only one CSV file for this project, practicing with multiple datasets in one directory is essential for future applications
+
+```
+
+## Data Cleaning 
+<br>
+Prior to any explanoatry data analysis, I would like to review the data to identify any areas that may need cleaning.
+
+```{r}
+summary(data_original)
+```
+
+Based on the information from summary(), all data seems fine except for the heart rate variable.
+The heart rate data contains extreme outliers that may be evaluated as errors.
+Therefore, I removed the outliers by applying the z-score method.
+
+```{r}
+mean_val <- mean(data_original$HeartRate)
+sd_val <- sd(data_original$HeartRate)
+
+data_filtered1 <- data_original%>%filter(HeartRate > (mean_val - 3 * sd_val) & HeartRate < (mean_val + 3 * sd_val))
+data_filtered1$RiskLevel <- factor(data_filtered1$RiskLevel, levels = c("high risk", "mid risk", "low risk"))
+
+```
+
+
+## Exploratory Data Analysis
+<br>
+In this analysis, we explore several relationships to gain insights into the factors influencing health conditions. Risk Level is used as the predicted variable, representing the overall health condition of the patient. While multiple variables such as SystolicBP, DiastolicBP, Blood Glucose, and Heart Rate have an impact on determining health outcomes, we place particular emphasis on Age as a key differentiating factor. Age serves as a variable that can significantly influence the predicted risk level and is likely to be a major factor in health variations across the population.
+
+  * Distribution of Sample Counts by Age and Risk Level
+  * Comparison of Health Indicators Across Different Ages and Risk Levels
+
+By analyzing these relationships, we can identify patterns and associations between age, risk levels, and key health indicators, providing valuable insights into how age influences the health outcomes predicted by the risk level.
+
+```{r}
+lapply(data_filtered1[ , c("RiskLevel"), drop = FALSE], table)
+```
+
+
+```{r}
+data_pivot <- data_filtered1 %>% dplyr::select(-RiskLevel) %>% pivot_longer(cols= everything(), names_to = "category", values_to = "values" )
+
+ggplot() +
+  geom_boxplot(data = data_pivot, mapping = aes(factor(category), values, color = category)) + 
+  scale_color_brewer(palette = "Dark2")
+
+```
+
+* SystolicBP: Right-skewed, indicating higher readings pull the distribution to the right.
+* Body Temperature and BS: Concentrated around the mean with a few outliers.
+* Age: Slight left skewness, indicating more younger individuals in the sample.
+* Other Variables: Fairly normally distributed, indicating balanced and symmetrical data around the mean.
+
+  
+Let's examine the distribution of individuals' ages across different risk levels and understand how the distribution varies. This will help us identify the age groups with a higher concentration of individuals at different risk levels and observe any significant differences in the proportion of risk levels across the age spectrum.
+
+  
+### Distribution of Sample Counts by Age and Risk Level
+```{r}
+# ggplot(data = data_filtered1, aes(x=Age, fill=RiskLevel)) +geom_histogram()
+p1<- ggplot() +
+  geom_histogram(data = data_filtered1, aes(x=Age, fill=RiskLevel), alpha=0.6, position='dodge')+
+  geom_line(data = data_filtered1, aes(x=Age), stat = "bin", binwidth = 3, fun = mean, color = "purple")+
+  ggtitle("Age Distribution by Risk Levels and Overall Age Distribution")+
+  theme(plot.title = element_text(hjust= 0.5)) 
+
+
+p2<- ggplot(data = data_filtered1, aes(x=Age, fill=RiskLevel, lineend = "round")) +
+  geom_histogram(alpha=0.6, position="fill", bins = 20)+
+  ggtitle("Relative Frequency Histogram of Age with Risk Levels")+
+  theme(plot.title = element_text(hjust= 0.5)) 
+
+p1+p2+plot_layout(ncol=1)
+
+```
+
+
+The sample shows a left-skewed distribution around the 30s, which aligns with the average first-time maternal age of 27.3 years in 2021. Although there are fewer data points for older ages, the data indicates that risk levels increase with the patient's age. Interestingly, a significant proportion of patients are classified as high-risk, highlighting a critical area for further analysis.
+
+
+
+```{r}
+data_pivot2 <- data_filtered1 %>% pivot_longer(cols= c(SystolicBP, DiastolicBP,BS,BodyTemp,HeartRate), names_to = "Variable", values_to = "Value")
+
+
+ggplot(data = data_pivot2) + geom_point(mapping = aes(x= Age, y= Value, color = RiskLevel)) + ggtitle("Comparison of Health Indicators Across Different Ages and Risk Levels") + theme(plot.title = element_text(hjust= 0.5)) + facet_wrap(~Variable, scales = "free_y")
+```
+
+### Three Key insights from Scatter Plots
+<br>
+* High Risk Prevalence: A significant portion of the sample with Blood Sugar (BS) levels above 10 are categorized as High Risk.
+* Diastolic Blood Pressure: Individuals with Diastolic Blood Pressure (DiastolicBP) readings above 100 are exclusively classified as High Risk.
+* Systolic Blood Pressure: All individuals with Systolic Blood Pressure (SystolicBP) readings above 140 fall into the High Risk category.
+
+```{r}
+data_filtered2 <- data_filtered1 %>% dplyr::select(-RiskLevel)
+
+res<- cor(data_filtered2)
+corrplot(res, type = "upper", order = "hclust", 
+         tl.col = "black", tl.srt = 45)
+```
+
+A correlation of 0.78 between SystolicBP and DiastolicBP indicates a strong positive association, meaning as systolic blood pressure increases, diastolic blood pressure also tends to increase. This relationship suggests that individuals with higher systolic values are likely to have higher diastolic values as well, reflecting a consistent pattern in blood pressure readings.
+
+
+## Statistical Modeling 
+<br>
+We will use ordinal logistic regression for this analysis, as the predicted variable is categorical and ordered. This method is well-suited for situations where the categories have a natural sequence, allowing us to model the probability of each outcome while respecting the order inherent in the data.
+
+
+```{r}
+# Fit ordinal logistic regression model
+
+model1 <- polr(RiskLevel ~ Age + SystolicBP + DiastolicBP + BS + HeartRate, data = data_filtered1, Hess = TRUE)
+
+# Summary of the model to see coefficients and their significance
+summary(model1)
+```
+
+Let $Y$be an ordinal outcome with $J$ categories. 
+The ordinal logistic regression model can be expressed using:
+
+$logit (P(Y \le j)) = \beta_{j0} + \beta_{1}x_1 + \cdots + \beta_{p} x_p.$
+
+$x_1 \cdots x_n$ are the regression coefficients corresponding to the predictor variables Age, SystolicBP, DiastolicBP, Blood Glucose (BS), and Heart Rate, respectively
+
+
+In R’s polr the ordinal logistic regression model is parameterized as
+$logit (P(Y \le j)) = \beta_{j0} – \eta_{1}x_1 – \cdots – \eta_{p} x_p$
+where $\eta_i = -\beta_i.$
+
+Thus, the final formula of the ordinal logistic regression model for this data is given by:
+
+$logit (P(Y \le j)) = \beta_{j0} - 0.02x_1 +0.04x_2 -0.005x_3 + 0.47x_4 + 0.05x_5$
+
+So the formulations for the first and second category becomes:
+
+$logit (P(Y \le 1)) = -12.7 - 0.02x_1 +0.04x_2 -0.005x_3 + 0.47x_4 + 0.05x_5$
+$logit (P(Y \le 2)) = -10.6 - 0.02x_1 +0.04x_2 -0.005x_3 + 0.47x_4 + 0.05x_5$
+
+
+```{r}
+ctable<- coef(summary(model1))
+
+p <- pnorm(abs(ctable[, "t value"]), lower.tail = FALSE) * 2
+(ctable <- cbind(ctable, "p value" = p))
+```
+### Hypothesis Testing 
+In the regression analysis, we examined the relationship between several independent variables and the ordered outcome variable. The hypothesis tests for each predictor were conducted based on the p-values.
+
+For each variable:
+
+- The null hypothesis (H₀) is that the variable has no effect on the outcome (i.e., the coefficient is zero).
+- The alternative hypothesis (H₁) is that the variable does have an effect (i.e., the coefficient is not zero).
+
+Among the variables analyzed, DiastolicBP is the only one with a p-value greater than 0.05, indicating it is not statistically significant in predicting the Risk Level. This suggests that DiastolicBP does not have a meaningful association with the outcome in this model. On the other hand, all other variables have p-values less than 0.05, implying they are statistically significant and contribute to predicting the Risk Level.
+
+### Confidence Interval 
+<br>
+The confidence interval is an effective tool for assessing the statistical significance of variables, and the results often align with hypothesis testing outcomes. In the case of ordinal logistic regression, where the coefficients are expressed on a logarithmic scale, another valuable interpretation approach is to convert the coefficients into odds ratios. This transformation allows for a more intuitive understanding of the model's effects, as odds ratios indicate how changes in the predictors influence the likelihood of being in higher outcome categories.
+
+```{r}
+(ci <- confint(model1))
+
+
+
+exp(cbind("Odd Ratio" =coef(model1),(ci)))
+```
+
+The results of the confidence interval appear to align with the hypothesis testing, as DiastolicBP is the only variable with a confidence interval that includes 0. When converting from the log scale to odds ratios (where $e^0 = 1$), the threshold of 1 further confirms that DiastolicBP is not statistically significant for predicting the outcome variable.
+
+### Interpretation
+Among the odds ratios for the variables, Blood Glucose (BS) stands out with an odds ratio of 0.63, which indicates a 37% decrease in the odds of the outcome for every one-unit increase in BS (since 1−0.63=0.37). This is a notable contrast compared to the other variables, whose odds ratios are tightly clustered around 1 ± 0.05. Odds ratios so close to 1 suggest these other predictors have almost no influence on the outcome, while the odds ratio of 0.63 for BS indicates a much stronger, negative association, making it a significantly more influential factor in the model.
+
+
+## Summary
+<br>
+Based on the analysis, DiastolicBP is not statistically significant for predicting the outcome variable, as indicated by its large p-value (p > 0.05). This suggests that there is insufficient evidence to reject the null hypothesis, meaning DiastolicBP does not have a meaningful impact on the outcome.
+
+In contrast, among the other variables, Blood Glucose (BS) stands out with an odds ratio of 0.63. This suggests that for every one-unit increase in BS, the odds of being in a higher risk category decrease by 37% (since 1−0.63=0.37). The p-value for BS indicates that this effect is statistically significant, implying that BS is likely the most influential predictor of the risk level, showing both statistical and practical significance.
+
+
+## Limitations & Challenge
+<br>
+
+1. Lack of Standardization:
+The analysis did not include standardization of variables, which may have affected the comparability of predictors. Future analyses should address this to enhance interpretation.
+
+2. Model Assumptions and Alternatives:
+The proportional odds assumption in the ordinal logistic regression may not hold for all predictors. Exploring machine learning methods like k-NN could improve model performance and better capture non-linear relationships.
+
+3. Unaccounted Confounding Variables:
+Important maternal health factors, such as lifestyle, prenatal care, or genetic influences, were not included in this analysis. Quantifying and incorporating these in future work could provide a more accurate understanding of maternal risk levels.
+
