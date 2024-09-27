@@ -30,7 +30,8 @@ Data Source: https://mavenanalytics.io/challenges/maven-coffee-challenge/30
 
 Data Source: https://public.tableau.com/app/resources/sample-data
 
-<img src="Tableau_images/Dashboard_1.png" width="75%" height="75%">
+
+<img src="Tableau_images\Dashboard_1.png" width="75%" height="75%">
 
 ## [Project 3. Water Quality: ](https://github.com/leedh7878/DanielLee_Project_Portfolio/blob/main/Water_Quality_Potability/src/water_quality.ipynb)
 
