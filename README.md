@@ -21,9 +21,9 @@ This is the repository for my project portfolio
 
 Data Source: https://mavenanalytics.io/challenges/maven-coffee-challenge/30
 
-<img src="/Maven_Coffee_Challenge/image/maven_coffe_challenge/1710652434027-0f131c12-359b-46d8-8126-4568c496e6ac_1.jpg" width="50%" height="50%"><img src="/Maven_Coffee_Challenge/image/maven_coffe_challenge/1710652434027-0f131c12-359b-46d8-8126-4568c496e6ac_2.jpg " width="50%" height="50%">
-<img src="/Maven_Coffee_Challenge/image/maven_coffe_challenge/1710652434027-0f131c12-359b-46d8-8126-4568c496e6ac_3.jpg" width="50%" height="50%"><img src="/Maven_Coffee_Challenge/image/maven_coffe_challenge/1710652434027-0f131c12-359b-46d8-8126-4568c496e6ac_4.jpg " width="50%" height="50%">
-<img src="/Maven_Coffee_Challenge/image/maven_coffe_challenge/1710652434027-0f131c12-359b-46d8-8126-4568c496e6ac_5.jpg" width="50%" height="50%">
+<img src="Maven_Coffee_Challenge\image\maven_coffe_challenge\1710652434027-0f131c12-359b-46d8-8126-4568c496e6ac_1.jpg" width="50%" height="50%"><img src="Maven_Coffee_Challenge\image\maven_coffe_challenge\1710652434027-0f131c12-359b-46d8-8126-4568c496e6ac_2.jpg " width="50%" height="50%">
+<img src="Maven_Coffee_Challenge\image\maven_coffe_challenge/1710652434027-0f131c12-359b-46d8-8126-4568c496e6ac_3.jpg" width="50%" height="50%"><img src="Maven_Coffee_Challenge\image\maven_coffe_challenge\1710652434027-0f131c12-359b-46d8-8126-4568c496e6ac_4.jpg " width="50%" height="50%">
+<img src="Maven_Coffee_Challenge\image\maven_coffe_challenge\1710652434027-0f131c12-359b-46d8-8126-4568c496e6ac_5.jpg" width="50%" height="50%">
 
 
 ## [Project 2. Maternal Health Analysis with R programming](https://public.tableau.com/app/profile/donghyun6358/viz/Personal_Project_16906002812120/Dashboard1)
@@ -44,15 +44,15 @@ Data source: https://www.kaggle.com/datasets/uom190346a/water-quality-and-potabi
 - ROC curves and confusion matrices have been generated for visualization.
 
 
-<img src="Water_Quality_Potability/images/nb_1.png" width= "75%" height="75%">
+<img src="Water_Quality_Potabilit\/images\nb_1.png" width= "75%" height="75%">
 
 
 ## [Project 4. SQL Application: Build an application utilizing Yelp data through effective SQL implementation](https://github.com/leedh7878/DanielLee_Project_Portfolio/tree/main/Yelp_Data)
 
 
-<img src="/Yelp_Data/Images/Yelp_sc1.png" width="59%" height="50%">
+<img src="Yelp_Data\Images\Yelp_sc1.png" width="59%" height="50%">
 
-<img src="/Yelp_Data/Images/Yelp_sc2.png" width="50%" height="50%">
+<img src="Yelp_Data\Images\Yelp_sc2.png" width="50%" height="50%">
 
  - Build an ETL pipeline for transforming JSON files into SQL data.
 
@@ -85,7 +85,7 @@ Data source: https://www.kaggle.com/datasets/uom190346a/water-quality-and-potabi
 
 Data Source: https://www.kaggle.com/datasets/borapajo/food-choices- 
 
-<img src="/Food_Choice/image/NLP.png" width= "50%" height="50%">
+<img src="Food_Choice/\image\NLP.png" width= "50%" height="50%">
 
 ## [Project 7. 2nd SQL Personal Project: Bike ](https://github.com/leedh7878/DanielLee_Project_Portfolio/tree/main/Bike_Store_Relational_Database_SQL)
 
@@ -108,6 +108,6 @@ Data Source: https://www.kaggle.com/datasets/borapajo/food-choices-
 
 Data Source: https://public.tableau.com/app/resources/sample-data
 
-<img src="/Tableau_images/Dashboard_1.png" width="75%" height="75%">
+<img src="Tableau_images\Dashboard_1.png" width="75%" height="75%">
 
 Refresh the page if the images are not displayed
