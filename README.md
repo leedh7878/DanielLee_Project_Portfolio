@@ -21,7 +21,7 @@ This is the repository for my project portfolio
 
 Data Source: https://mavenanalytics.io/challenges/maven-coffee-challenge/30
 
-<img src="Maven_Coffee_Challenge\image\maven_coffe_challenge\1710652434027-0f131c12-359b-46d8-8126-4568c496e6ac_1.jpg" width="50%" height="50%"><img src="Maven_Coffee_Challenge\image\maven_coffe_challenge\1710652434027-0f131c12-359b-46d8-8126-4568c496e6ac_2.jpg " width="50%" height="50%">
+<img src="\Maven_Coffee_Challenge\image\maven_coffe_challenge\1710652434027-0f131c12-359b-46d8-8126-4568c496e6ac_1.jpg" width="50%" height="50%"><img src="Maven_Coffee_Challenge\image\maven_coffe_challenge\1710652434027-0f131c12-359b-46d8-8126-4568c496e6ac_2.jpg " width="50%" height="50%">
 <img src="Maven_Coffee_Challenge\image\maven_coffe_challenge/1710652434027-0f131c12-359b-46d8-8126-4568c496e6ac_3.jpg" width="50%" height="50%"><img src="Maven_Coffee_Challenge\image\maven_coffe_challenge\1710652434027-0f131c12-359b-46d8-8126-4568c496e6ac_4.jpg " width="50%" height="50%">
 <img src="Maven_Coffee_Challenge\image\maven_coffe_challenge\1710652434027-0f131c12-359b-46d8-8126-4568c496e6ac_5.jpg" width="50%" height="50%">
 
