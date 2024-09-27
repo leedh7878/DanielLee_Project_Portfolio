@@ -7,37 +7,30 @@ This is the repository for my project portfolio
 
 # Project description:
 
-## [Project 1. NLP Python Project: College students' food and cooking preferences:](https://github.com/leedh7878/DanielLee_Project_Portfolio/blob/main/Food_Choice/src/Food_Choice_%20Data_Cleansing.ipynb)
+## [Project 1. Power BI Project: Maven Coffee Challenge ("The Great American Coffee Taste Test")](https://mavenanalytics.io/project/13111)
 
-- Engaging in a Python project focused on tasks such as data cleaning, natural language processing, and exploratory data analysis.
+- Employ Power Query for comprehensive data transformation, including cleaning, pivoting, and merging operations.
 
-- The NLTK package was employed to optimize natural language processing.
+- Normalized a substantial dataset from a single file, comprising multiple tables, and established a coherent data model complete with relationships.
 
-- Create a grammar to extract food item names from unformatted strings and present them in a list format.
+- Generated explicit measures using DAX functions.
 
-Data Source: https://www.kaggle.com/datasets/borapajo/food-choices- 
+- Designed an interactive report providing a comprehensive overview of data from "The Great American Coffee Taste Test."
 
-<img src="/Food_Choice/image/NLP.png" width= "50%" height="50%">
+- Created visuals including matrices, bar charts, donut charts, treemaps, and decomposition trees.
+
+Data Source: https://mavenanalytics.io/challenges/maven-coffee-challenge/30
+
+<img src="/Maven_Coffee_Challenge/image/maven_coffe_challenge/1710652434027-0f131c12-359b-46d8-8126-4568c496e6ac_1.jpg" width="50%" height="50%"><img src="/Maven_Coffee_Challenge/image/maven_coffe_challenge/1710652434027-0f131c12-359b-46d8-8126-4568c496e6ac_2.jpg " width="50%" height="50%">
+<img src="/Maven_Coffee_Challenge/image/maven_coffe_challenge/1710652434027-0f131c12-359b-46d8-8126-4568c496e6ac_3.jpg" width="50%" height="50%"><img src="/Maven_Coffee_Challenge/image/maven_coffe_challenge/1710652434027-0f131c12-359b-46d8-8126-4568c496e6ac_4.jpg " width="50%" height="50%">
+<img src="/Maven_Coffee_Challenge/image/maven_coffe_challenge/1710652434027-0f131c12-359b-46d8-8126-4568c496e6ac_5.jpg" width="50%" height="50%">
 
 
-## [Project 2. Tableau Project: Olympic Medalist](https://public.tableau.com/app/profile/donghyun6358/viz/Personal_Project_16906002812120/Dashboard1)
-
-- The objective of this project is to visualize the number of medals earned in the Olympics.
-
-- Users can select a country directly from the map.
-
-- Dropdown filters are available for country, medal type, and sport types.
-
-- The year of the Olympics can be chosen using a slider.
-
-- A reset button is provided to clear applied filters and reset the display.
-
-- The bar graph will provide a clear and concise overview of medal counts based on the selected filters.
+## [Project 2. Maternal Health Analysis with R programming](https://public.tableau.com/app/profile/donghyun6358/viz/Personal_Project_16906002812120/Dashboard1)
 
 Data Source: https://public.tableau.com/app/resources/sample-data
 
-<img src="/Tableau_images/Dashboard_1.png" width="75%" height="75%">
-
+<img src="Tableau_images/Dashboard_1.png" width="75%" height="75%">
 
 ## [Project 3. Water Quality: ](https://github.com/leedh7878/DanielLee_Project_Portfolio/blob/main/Water_Quality_Potability/src/water_quality.ipynb)
 
@@ -50,7 +43,7 @@ Data source: https://www.kaggle.com/datasets/uom190346a/water-quality-and-potabi
 - ROC curves and confusion matrices have been generated for visualization.
 
 
-<img src="/Water_Quality_Potability/images/nb_1.png" width= "75%" height="75%">
+<img src="Water_Quality_Potability/images/nb_1.png" width= "75%" height="75%">
 
 
 ## [Project 4. SQL Application: Build an application utilizing Yelp data through effective SQL implementation](https://github.com/leedh7878/DanielLee_Project_Portfolio/tree/main/Yelp_Data)
@@ -81,27 +74,39 @@ Data source: https://www.kaggle.com/datasets/uom190346a/water-quality-and-potabi
 - Implement a bar graph that highlights the top 5 areas (stations) with the highest recorded precipitation levels.
 
 
-## [Project 6. Power BI Project: Maven Coffee Challenge ("The Great American Coffee Taste Test")](https://mavenanalytics.io/project/13111)
+## [Project 6. NLP Python Project: College students' food and cooking preferences:](https://github.com/leedh7878/DanielLee_Project_Portfolio/blob/main/Food_Choice/src/Food_Choice_%20Data_Cleansing.ipynb)
 
-- Employ Power Query for comprehensive data transformation, including cleaning, pivoting, and merging operations.
+- Engaging in a Python project focused on tasks such as data cleaning, natural language processing, and exploratory data analysis.
 
-- Normalized a substantial dataset from a single file, comprising multiple tables, and established a coherent data model complete with relationships.
+- The NLTK package was employed to optimize natural language processing.
 
-- Generated explicit measures using DAX functions.
+- Create a grammar to extract food item names from unformatted strings and present them in a list format.
 
-- Designed an interactive report providing a comprehensive overview of data from "The Great American Coffee Taste Test."
+Data Source: https://www.kaggle.com/datasets/borapajo/food-choices- 
 
-- Created visuals including matrices, bar charts, donut charts, treemaps, and decomposition trees.
-
-Data Source: https://mavenanalytics.io/challenges/maven-coffee-challenge/30
-
-<img src="/Maven_Coffee_Challenge/image/maven_coffe_challenge/1710652434027-0f131c12-359b-46d8-8126-4568c496e6ac_1.jpg " width="50%" height="50%"><img src="/Maven_Coffee_Challenge/image/maven_coffe_challenge/1710652434027-0f131c12-359b-46d8-8126-4568c496e6ac_2.jpg " width="50%" height="50%">
-<img src="/Maven_Coffee_Challenge/image/maven_coffe_challenge/1710652434027-0f131c12-359b-46d8-8126-4568c496e6ac_3.jpg " width="50%" height="50%"><img src="/Maven_Coffee_Challenge/image/maven_coffe_challenge/1710652434027-0f131c12-359b-46d8-8126-4568c496e6ac_4.jpg " width="50%" height="50%">
-<img src="/Maven_Coffee_Challenge/image/maven_coffe_challenge/1710652434027-0f131c12-359b-46d8-8126-4568c496e6ac_5.jpg " width="50%" height="50%">
+<img src="/Food_Choice/image/NLP.png" width= "50%" height="50%">
 
 ## [Project 7. 2nd SQL Personal Project: Bike ](https://github.com/leedh7878/DanielLee_Project_Portfolio/tree/main/Bike_Store_Relational_Database_SQL)
 
 [ER Diagram:](https://github.com/leedh7878/DanielLee_Project_Portfolio/tree/main/Bike_Store_Relational_Database_SQL/src/ER_diagram.jpg)
 
+
+## [Project 8. Tableau Project: Olympic Medalist](https://public.tableau.com/app/profile/donghyun6358/viz/Personal_Project_16906002812120/Dashboard1)
+
+- The objective of this project is to visualize the number of medals earned in the Olympics.
+
+- Users can select a country directly from the map.
+
+- Dropdown filters are available for country, medal type, and sport types.
+
+- The year of the Olympics can be chosen using a slider.
+
+- A reset button is provided to clear applied filters and reset the display.
+
+- The bar graph will provide a clear and concise overview of medal counts based on the selected filters.
+
+Data Source: https://public.tableau.com/app/resources/sample-data
+
+<img src="/Tableau_images/Dashboard_1.png" width="75%" height="75%">
 
 Refresh the page if the images are not displayed
