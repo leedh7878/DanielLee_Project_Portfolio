@@ -21,7 +21,7 @@ This is the repository for my project portfolio
 
 Data Source: https://mavenanalytics.io/challenges/maven-coffee-challenge/30
 
-<img src="\Maven_Coffee_Challenge\image\maven_coffe_challenge\1710652434027-0f131c12-359b-46d8-8126-4568c496e6ac_1.jpg" width="50%" height="50%"><img src="Maven_Coffee_Challenge\image\maven_coffe_challenge\1710652434027-0f131c12-359b-46d8-8126-4568c496e6ac_2.jpg " width="50%" height="50%">
+<img src="Maven_Coffee_Challenge\image\maven_coffe_challenge\1710652434027-0f131c12-359b-46d8-8126-4568c496e6ac_1.jpg" width="50%" height="50%"><img src="Maven_Coffee_Challenge\image\maven_coffe_challenge\1710652434027-0f131c12-359b-46d8-8126-4568c496e6ac_2.jpg " width="50%" height="50%">
 <img src="Maven_Coffee_Challenge\image\maven_coffe_challenge/1710652434027-0f131c12-359b-46d8-8126-4568c496e6ac_3.jpg" width="50%" height="50%"><img src="Maven_Coffee_Challenge\image\maven_coffe_challenge\1710652434027-0f131c12-359b-46d8-8126-4568c496e6ac_4.jpg " width="50%" height="50%">
 <img src="Maven_Coffee_Challenge\image\maven_coffe_challenge\1710652434027-0f131c12-359b-46d8-8126-4568c496e6ac_5.jpg" width="50%" height="50%">
 
@@ -30,8 +30,6 @@ Data Source: https://mavenanalytics.io/challenges/maven-coffee-challenge/30
 
 Data Source: https://public.tableau.com/app/resources/sample-data
 
-
-<img src="Tableau_images\Dashboard_1.png" width="75%" height="75%">
 
 ## [Project 3. Water Quality: ](https://github.com/leedh7878/DanielLee_Project_Portfolio/blob/main/Water_Quality_Potability/src/water_quality.ipynb)
 
@@ -111,3 +109,6 @@ Data Source: https://public.tableau.com/app/resources/sample-data
 <img src="Tableau_images\Dashboard_1.png" width="75%" height="75%">
 
 Refresh the page if the images are not displayed
+
+
+[Go to Example Page](Maternal_Health_Risk/src/EDA.html)
