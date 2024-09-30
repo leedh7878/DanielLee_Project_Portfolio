@@ -26,7 +26,15 @@ Data Source: https://mavenanalytics.io/challenges/maven-coffee-challenge/30
 <img src="Maven_Coffee_Challenge\image\maven_coffe_challenge\1710652434027-0f131c12-359b-46d8-8126-4568c496e6ac_5.jpg" width="50%" height="50%">
 
 
-## [Project 2. Maternal Health Analysis with R programming](https://public.tableau.com/app/profile/donghyun6358/viz/Personal_Project_16906002812120/Dashboard1)
+## [Project 2. Maternal Health Analysis with R programming](https://github.com/leedh7878/DanielLee_Project_Portfolio/tree/main/Maternal_Health_Risk)
+
+[Published R Notebook Report](Maternal_Health_Risk/src/EDA.html)
+
+- Leveraged ggplot2 and dplyr packages to perform exploratory data analysis (EDA), generating insightful visualizations like histograms, scatter plots,box plots, and correlation matrix to discover patterns, distributions, and potential outliers within the maternal health dataset.
+
+- Utilized the MASS package in R to build and fit an ordinal logistic regression model, predicting Risk Level (an ordered categorical variable) using numerical predictors such as SystolicBP, DiastolicBP, and Blood Glucose, while interpreting coefficients and odds ratios to evaluate the impact of each variable.
+
+- Applied statistical testing using p-values and confidence intervals to assess the significance of numerical predictors in the model, confirming the role of Blood Glucose as a significant variable, while identifying DiastolicBP as statistically insignificant in predicting Risk Level.
 
 Data Source: https://public.tableau.com/app/resources/sample-data
 
@@ -111,4 +119,3 @@ Data Source: https://public.tableau.com/app/resources/sample-data
 Refresh the page if the images are not displayed
 
 
-[Go to Example Page](Maternal_Health_Risk/src/EDA.html)
