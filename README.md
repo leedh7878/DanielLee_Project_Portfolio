@@ -19,7 +19,7 @@ This is the repository for my project portfolio
 
 - Created visuals including matrices, bar charts, donut charts, treemaps, and decomposition trees.
 
-Data Source: https://mavenanalytics.io/challenges/maven-coffee-challenge/30
+[Data Source:] (https://mavenanalytics.io/challenges/maven-coffee-challenge/30)
 
 <img src="Maven_Coffee_Challenge\image\maven_coffe_challenge\1710652434027-0f131c12-359b-46d8-8126-4568c496e6ac_1.jpg" width="50%" height="50%"><img src="Maven_Coffee_Challenge\image\maven_coffe_challenge\1710652434027-0f131c12-359b-46d8-8126-4568c496e6ac_2.jpg " width="50%" height="50%">
 <img src="Maven_Coffee_Challenge\image\maven_coffe_challenge/1710652434027-0f131c12-359b-46d8-8126-4568c496e6ac_3.jpg" width="50%" height="50%"><img src="Maven_Coffee_Challenge\image\maven_coffe_challenge\1710652434027-0f131c12-359b-46d8-8126-4568c496e6ac_4.jpg " width="50%" height="50%">
@@ -36,7 +36,7 @@ Data Source: https://mavenanalytics.io/challenges/maven-coffee-challenge/30
 
 - Applied statistical testing using p-values and confidence intervals to assess the significance of numerical predictors in the model, confirming the role of Blood Glucose as a significant variable, while identifying DiastolicBP as statistically insignificant in predicting Risk Level.
 
-Data Source: https://public.tableau.com/app/resources/sample-data
+Data Source: https://www.kaggle.com/datasets/csafrit2/maternal-health-risk-data/data
 
 
 ## [Project 3. Water Quality: ](https://github.com/leedh7878/DanielLee_Project_Portfolio/blob/main/Water_Quality_Potability/src/water_quality.ipynb)
@@ -51,34 +51,6 @@ Data source: https://www.kaggle.com/datasets/uom190346a/water-quality-and-potabi
 
 
 <img src="Water_Quality_Potabilit\/images\nb_1.png" width= "75%" height="75%">
-
-
-## [Project 4. SQL Application: Build an application utilizing Yelp data through effective SQL implementation](https://github.com/leedh7878/DanielLee_Project_Portfolio/tree/main/Yelp_Data)
-
-
-<img src="Yelp_Data\Images\Yelp_sc1.png" width="59%" height="50%">
-
-<img src="Yelp_Data\Images\Yelp_sc2.png" width="50%" height="50%">
-
- - Build an ETL pipeline for transforming JSON files into SQL data.
-
- - [Design the Database schema](https://github.com/leedh7878/DanielLee_Project_Portfolio/tree/main/Yelp_Data/DBSchema)
-
- - The database generates new aggregate data, including sums and counts, derived from the existing dataset
-
- - The user interface, built with PyQt5, will display both aggregated data and the complete dataset.
-
-## [Project 5. R Project: Shiny app to visualize precipitation data in Washington State](https://github.com/leedh7878/DanielLee_Project_Portfolio/tree/main/NOAA_Shinyapp)
-
-[Click on this link to access the Shiny application](https://leedh7878.shinyapps.io/NOAA_Shinyapp/)
-
-- Develop a Shiny app to access and efficiently present precipitation data for weather stations in Washington State, sourced from the NOAA API
-
-- Enable users to choose a specific year from the available range of 2000 to 2003.
-
-- Provide an interactive interface to visualize the monthly precipitation data for the selected year.
-
-- Implement a bar graph that highlights the top 5 areas (stations) with the highest recorded precipitation levels.
 
 
 ## [Project 6. NLP Python Project: College students' food and cooking preferences:](https://github.com/leedh7878/DanielLee_Project_Portfolio/blob/main/Food_Choice/src/Food_Choice_%20Data_Cleansing.ipynb)
