@@ -1,12 +1,5 @@
 # Project_Portfolio
 
-This is the repository for my project portfolio
-
-## Here's My [guideline](https://github.com/leedh7878/DanielLee_Project_Portfolio/blob/main/References/page_organization) for how I organized the repositories: 
-
-
-# Project description:
-
 ## [Project 1. Power BI Project: Maven Coffee Challenge ("The Great American Coffee Taste Test")](https://mavenanalytics.io/project/13111)
 
 [<u>Data Source</u>](https://mavenanalytics.io/challenges/maven-coffee-challenge/30)
@@ -29,6 +22,7 @@ This is the repository for my project portfolio
 ## [Project 2. Maternal Health Analysis with R programming](https://github.com/leedh7878/DanielLee_Project_Portfolio/tree/main/Maternal_Health_Risk)
 
 [Published R Notebook Report](Maternal_Health_Risk/src/EDA.html)
+
 [<u>Data Source</u>](https://www.kaggle.com/datasets/csafrit2/maternal-health-risk-data/data)
 
 - Leveraged ggplot2 and dplyr packages to perform exploratory data analysis (EDA), generating insightful visualizations like histograms, scatter plots,box plots, and correlation matrix to discover patterns, distributions, and potential outliers within the maternal health dataset.
@@ -54,38 +48,20 @@ This is the repository for my project portfolio
 
 ## [Project 6. NLP Python Project: College students' food and cooking preferences:](https://github.com/leedh7878/DanielLee_Project_Portfolio/blob/main/Food_Choice/src/Food_Choice_%20Data_Cleansing.ipynb)
 
+[<u>Data Source</u>](https://www.kaggle.com/datasets/borapajo/food-choices-)
+
+
 - Engaging in a Python project focused on tasks such as data cleaning, natural language processing, and exploratory data analysis.
 
 - The NLTK package was employed to optimize natural language processing.
 
 - Create a grammar to extract food item names from unformatted strings and present them in a list format.
 
-[<u>Data Source</u>](https://www.kaggle.com/datasets/borapajo/food-choices-)
-
 <img src="Food_Choice/\image\NLP.png" width= "50%" height="50%">
 
 ## [Project 7. 2nd SQL Personal Project: Bike ](https://github.com/leedh7878/DanielLee_Project_Portfolio/tree/main/Bike_Store_Relational_Database_SQL)
 
 [ER Diagram:](https://github.com/leedh7878/DanielLee_Project_Portfolio/tree/main/Bike_Store_Relational_Database_SQL/src/ER_diagram.jpg)
-
-
-## [Project 8. Tableau Project: Olympic Medalist](https://public.tableau.com/app/profile/donghyun6358/viz/Personal_Project_16906002812120/Dashboard1)
-
-[<u>Data Source</u>](https://public.tableau.com/app/resources/sample-data)
-
-- The objective of this project is to visualize the number of medals earned in the Olympics.
-
-- Users can select a country directly from the map.
-
-- Dropdown filters are available for country, medal type, and sport types.
-
-- The year of the Olympics can be chosen using a slider.
-
-- A reset button is provided to clear applied filters and reset the display.
-
-- The bar graph will provide a clear and concise overview of medal counts based on the selected filters.
-
-<img src="Tableau_images\Dashboard_1.png" width="75%" height="75%">
 
 Refresh the page if the images are not displayed
 
