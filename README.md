@@ -9,6 +9,8 @@ This is the repository for my project portfolio
 
 ## [Project 1. Power BI Project: Maven Coffee Challenge ("The Great American Coffee Taste Test")](https://mavenanalytics.io/project/13111)
 
+[<u>Data Source</u>](https://mavenanalytics.io/challenges/maven-coffee-challenge/30)
+
 - Employ Power Query for comprehensive data transformation, including cleaning, pivoting, and merging operations.
 
 - Normalized a substantial dataset from a single file, comprising multiple tables, and established a coherent data model complete with relationships.
@@ -19,8 +21,6 @@ This is the repository for my project portfolio
 
 - Created visuals including matrices, bar charts, donut charts, treemaps, and decomposition trees.
 
-[<u>Data Source</u>](https://mavenanalytics.io/challenges/maven-coffee-challenge/30)
-
 <img src="Maven_Coffee_Challenge\image\maven_coffe_challenge\1710652434027-0f131c12-359b-46d8-8126-4568c496e6ac_1.jpg" width="50%" height="50%"><img src="Maven_Coffee_Challenge\image\maven_coffe_challenge\1710652434027-0f131c12-359b-46d8-8126-4568c496e6ac_2.jpg " width="50%" height="50%">
 <img src="Maven_Coffee_Challenge\image\maven_coffe_challenge/1710652434027-0f131c12-359b-46d8-8126-4568c496e6ac_3.jpg" width="50%" height="50%"><img src="Maven_Coffee_Challenge\image\maven_coffe_challenge\1710652434027-0f131c12-359b-46d8-8126-4568c496e6ac_4.jpg " width="50%" height="50%">
 <img src="Maven_Coffee_Challenge\image\maven_coffe_challenge\1710652434027-0f131c12-359b-46d8-8126-4568c496e6ac_5.jpg" width="50%" height="50%">
@@ -29,14 +29,13 @@ This is the repository for my project portfolio
 ## [Project 2. Maternal Health Analysis with R programming](https://github.com/leedh7878/DanielLee_Project_Portfolio/tree/main/Maternal_Health_Risk)
 
 [Published R Notebook Report](Maternal_Health_Risk/src/EDA.html)
+[<u>Data Source</u>](https://www.kaggle.com/datasets/csafrit2/maternal-health-risk-data/data)
 
 - Leveraged ggplot2 and dplyr packages to perform exploratory data analysis (EDA), generating insightful visualizations like histograms, scatter plots,box plots, and correlation matrix to discover patterns, distributions, and potential outliers within the maternal health dataset.
 
 - Utilized the MASS package in R to build and fit an ordinal logistic regression model, predicting Risk Level (an ordered categorical variable) using numerical predictors such as SystolicBP, DiastolicBP, and Blood Glucose, while interpreting coefficients and odds ratios to evaluate the impact of each variable.
 
 - Applied statistical testing using p-values and confidence intervals to assess the significance of numerical predictors in the model, confirming the role of Blood Glucose as a significant variable, while identifying DiastolicBP as statistically insignificant in predicting Risk Level.
-
-[<u>Data Source</u>](https://www.kaggle.com/datasets/csafrit2/maternal-health-risk-data/data)
 
 
 ## [Project 3. Water Quality: ](https://github.com/leedh7878/DanielLee_Project_Portfolio/blob/main/Water_Quality_Potability/src/water_quality.ipynb)
@@ -61,7 +60,7 @@ This is the repository for my project portfolio
 
 - Create a grammar to extract food item names from unformatted strings and present them in a list format.
 
-Data Source: https://www.kaggle.com/datasets/borapajo/food-choices- 
+[<u>Data Source</u>](https://www.kaggle.com/datasets/borapajo/food-choices-)
 
 <img src="Food_Choice/\image\NLP.png" width= "50%" height="50%">
 
@@ -71,6 +70,8 @@ Data Source: https://www.kaggle.com/datasets/borapajo/food-choices-
 
 
 ## [Project 8. Tableau Project: Olympic Medalist](https://public.tableau.com/app/profile/donghyun6358/viz/Personal_Project_16906002812120/Dashboard1)
+
+[<u>Data Source</u>](https://public.tableau.com/app/resources/sample-data)
 
 - The objective of this project is to visualize the number of medals earned in the Olympics.
 
@@ -83,8 +84,6 @@ Data Source: https://www.kaggle.com/datasets/borapajo/food-choices-
 - A reset button is provided to clear applied filters and reset the display.
 
 - The bar graph will provide a clear and concise overview of medal counts based on the selected filters.
-
-[<u>Data Source</u>](https://public.tableau.com/app/resources/sample-data)
 
 <img src="Tableau_images\Dashboard_1.png" width="75%" height="75%">
 
