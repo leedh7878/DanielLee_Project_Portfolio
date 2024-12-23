@@ -36,13 +36,13 @@
 
 [<u>Data Source</u>](https://www.kaggle.com/datasets/uom190346a/water-quality-and-potability)
 
-- Conducted EDA, imputation, scaling, and applied SMOTE to address data imbalance. 
+- Conducted comprehensive EDA to explore patterns and relationships, followed by imputation and scaling to handle missing values and standardize features. Addressed data imbalance effectively by applying SMOTE to enhance minority class representation.  
 
-- Built and evaluated multiple classifiers with a focus on recall using custom scoring metrics.
+- Built and evaluated multiple classifiers, prioritizing recall to minimize false negatives, which is critical for water quality evaluation. Used custom scoring metrics during cross-validation to identify underperforming models for elimination.  
 
-- Performed hyperparameter and threshold tuning to optimize model performance
-.  
-- Improved Random Forest recall from 0.48 to 0.84, reducing false negatives effectively.  
+- Performed hyperparameter tuning to refine model parameters and threshold tuning to find the optimal balance between precision and recall. Focused on maximizing recall while maintaining overall model performance.  
+
+- Achieved significant improvements in Random Forest classifier performance, increasing recall from 0.48 to 0.84.
 
 <img src="Water_Quality_Potability\res\rf.png" width= "75%" height="75%">
 
