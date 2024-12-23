@@ -36,30 +36,18 @@
 
 [<u>Data Source</u>](https://www.kaggle.com/datasets/uom190346a/water-quality-and-potability)
 
-- Imputation and oversampling techniques have been applied for the first time, although their impact on the data outcome remains uncertain.
+- Conducted EDA, imputation, scaling, and applied SMOTE to address data imbalance. 
 
-- Various classification methods have been utilized to assess the accuracy of predictions.
+- Built and evaluated multiple classifiers with a focus on recall using custom scoring metrics.
 
-- ROC curves and confusion matrices have been generated for visualization.
-
-
-<img src="Water_Quality_Potabilit\/images\nb_1.png" width= "75%" height="75%">
-
-
-## [Project 6. NLP Python Project: College students' food and cooking preferences:](https://github.com/leedh7878/DanielLee_Project_Portfolio/blob/main/Food_Choice/src/Food_Choice_%20Data_Cleansing.ipynb)
-
-[<u>Data Source</u>](https://www.kaggle.com/datasets/borapajo/food-choices-)
+- Performed hyperparameter and threshold tuning to optimize model performance
+.  
+- Improved Random Forest recall from 0.48 to 0.84, reducing false negatives effectively.  
 
 
-- Engaging in a Python project focused on tasks such as data cleaning, natural language processing, and exploratory data analysis.
+<img src="Water_Quality_Potabilit\/res\rf.png" width= "75%" height="75%">
 
-- The NLTK package was employed to optimize natural language processing.
-
-- Create a grammar to extract food item names from unformatted strings and present them in a list format.
-
-<img src="Food_Choice/\image\NLP.png" width= "50%" height="50%">
-
-## [Project 7. 2nd SQL Personal Project: Bike ](https://github.com/leedh7878/DanielLee_Project_Portfolio/tree/main/Bike_Store_Relational_Database_SQL)
+## [Project 4. SQL Personal Project: Bike ](https://github.com/leedh7878/DanielLee_Project_Portfolio/tree/main/Bike_Store_Relational_Database_SQL)
 
 [ER Diagram:](https://github.com/leedh7878/DanielLee_Project_Portfolio/tree/main/Bike_Store_Relational_Database_SQL/src/ER_diagram.jpg)
 
