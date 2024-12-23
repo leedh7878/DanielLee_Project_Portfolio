@@ -32,7 +32,9 @@
 - Applied statistical testing using p-values and confidence intervals to assess the significance of numerical predictors in the model, confirming the role of Blood Glucose as a significant variable, while identifying DiastolicBP as statistically insignificant in predicting Risk Level.
 
 
-## [Project 3. Water Portability Prediction ](https://github.com/leedh7878/DanielLee_Project_Portfolio/blob/main/Water_Quality_Potability/src/water_quality.html)
+## [Project 3. Water Portability Prediction ](https://github.com/leedh7878/DanielLee_Project_Portfolio/blob/main/Water_Quality_Potability/src/water_quality.ipynb)
+
+[Published Jupyter Notebook Report](Water_Quality_Potability/src/water_quality.html)
 
 [<u>Data Source</u>](https://www.kaggle.com/datasets/uom190346a/water-quality-and-potability)
 
