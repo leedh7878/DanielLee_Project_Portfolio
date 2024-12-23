@@ -43,9 +43,10 @@
 - Performed hyperparameter and threshold tuning to optimize model performance
 .  
 - Improved Random Forest recall from 0.48 to 0.84, reducing false negatives effectively.  
+<img src="Maven_Coffee_Challenge\image\maven_coffe_challenge\1710652434027-0f131c12-359b-46d8-8126-4568c496e6ac_5.jpg" width="50%" height="50%">
 
 
-<img src="Water_Quality_Potabilit\res\rf.png" width= "75%" height="75%">
+<img src="Water_Quality_Potability\res\rf.png" width= "75%" height="75%">
 
 ## [Project 4. SQL Personal Project: Bike ](https://github.com/leedh7878/DanielLee_Project_Portfolio/tree/main/Bike_Store_Relational_Database_SQL)
 
