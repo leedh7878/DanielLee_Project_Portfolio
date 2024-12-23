@@ -45,7 +45,7 @@
 - Improved Random Forest recall from 0.48 to 0.84, reducing false negatives effectively.  
 
 
-<img src="Water_Quality_Potabilit\/res\rf.png" width= "75%" height="75%">
+<img src="Water_Quality_Potabilit\res\rf.png" width= "75%" height="75%">
 
 ## [Project 4. SQL Personal Project: Bike ](https://github.com/leedh7878/DanielLee_Project_Portfolio/tree/main/Bike_Store_Relational_Database_SQL)
 
