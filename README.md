@@ -53,9 +53,9 @@
 
 
 
-[ER Diagram:](https://github.com/leedh7878/DanielLee_Project_Portfolio/tree/main/Bike_Store_Relational_Database_SQL/image/ER_Diagram.png)
+ER Diagram:
 
-<img src="Bike_Store_Relational_Database_SQL/image/ER_Diagram.png" width= "75%" height="75%">
+<img src="Bike_Store_Relational_Database_SQL\image\ER_Diagram.png" width= "75%" height="75%">
 
 Refresh the page if the images are not displayed
 
