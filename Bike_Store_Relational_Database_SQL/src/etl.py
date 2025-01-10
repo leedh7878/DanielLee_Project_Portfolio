@@ -88,11 +88,13 @@ def choose_csv_files(file_name:str = None) -> list[str]:
     """
 
     csv_list = os.listdir(loc_data)
-    # assume that all files are csv
+    # Assume that all files are csv
 
     row_counts = {the_file: count_rows(os.path.join(loc_data, the_file)) for the_file in csv_list}
+    # return dictionary with file name as key and row count as value
 
     sorted_files = sorted(csv_list, key=lambda the_file: row_counts[the_file])
+    
 
     if file_name is None:
         return sorted_files
@@ -105,7 +107,7 @@ def choose_csv_files(file_name:str = None) -> list[str]:
 
 def extract_csvs(db_name: str, file_name:str = None) -> list:
     """
-    Function to extract value of csv into list 
+    Function to extract value of csv into list
 
     """
     csv_to_extract = choose_csv_files(file_name)
@@ -128,7 +130,6 @@ def extract_csvs(db_name: str, file_name:str = None) -> list:
 
                 insert_value = np.array2string((row.values), separator = ',')[1:-1].replace("nan", "NULL").replace('"',"'")
                 
-            
 
                 pattern = r"(?<!,|\s)'(?!,|$)"
 
@@ -151,10 +152,12 @@ if __name__ == '__main__':
 
     # storing the directory of a module in 
     dir = os.path.dirname(__file__)
-    os.chdir(dir)
+    os.chdir(dir) # change working directory to current source file 
 
     # creating_database()
     database_name = "bike_store_db"
     # creating_database(database_name)
     create_schema(database_name)
     extract_csvs(database_name)
+
+
