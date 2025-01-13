@@ -1,33 +1,35 @@
 
---1.Total Sales by Product Category:
+-- 1. How many customers have a first name that starts with the letter 'J'?
 
-SELECT c.category_name, SUM(oi.quantity * p.list_price) AS total_sales
-FROM Orders o
-JOIN Order_Items oi ON o.order_id = oi.order_id
-JOIN Products p ON oi.product_id = p.product_id
-JOIN Categories c ON p.category_id = c.category_id
-GROUP BY c.category_name;
+SELECT * FROM Customers
+WHERE first_name ILike'J%';
 
---2. Average Order Value by Store:
+-- 2. What is the total number of products in each category?
 
-SELECT s.store_name, AVG(total_order_value) AS avg_order_value
-FROM (
-    SELECT o.store_id, SUM(oi.quantity * oi.list_price) AS total_order_value
-    FROM Orders o
-    JOIN Order_Items oi ON o.order_id = oi.order_id
-    GROUP BY o.store_id
-) AS order_totals
-JOIN Stores s ON order_totals.store_id = s.store_id
-GROUP BY s.store_name;
+SELECT category_name, COUNT(Products.category_id) AS product_count
+FROM Categories LEFT JOIN Products ON Products.category_id = Categories.category_id	
+GROUP BY category_name;
 
---3. Total Stock Quantity by Product Brand:
+-- 3. What is the total number of unique products available in each store?
 
-SELECT b.brand_name, SUM(s.quantity) AS total_stock_quantity
-FROM Stocks s
-JOIN Products p ON s.product_id = p.product_id
-JOIN Brands b ON p.brand_id = b.brand_id
-GROUP BY b.brand_name;
+SELECT Stocks.store_id, COUNT(DISTINCT Stocks.product_id) AS unique_products
+FROM Stocks JOIN Stores ON Stores.store_id = Stocks.store_id
+WHERE Stocks.quantity > 0
+GROUP BY Stocks.store_id
+ORDER BY Stocks.store_id;
 
---4. 
+-- 4. Which staff members are managers, and how many staff members report to each manager?
+
+SELECT 
+    manager.staff_id AS manager_id, 
+    COUNT(staff.staff_id) AS team_size
+FROM Staffs AS staff JOIN Staffs AS manager ON staff.manager_id = manager.staff_id
+GROUP BY manager.staff_id
+HAVING COUNT(staff.staff_id) > 0
+ORDER BY team_size DESC, manager_id;
+ 
+
+
+
 
 

@@ -48,13 +48,9 @@
 
 <img src="Water_Quality_Potability\res\rf.png" width= "75%" height="75%">
 
-## [Project 4. SQL Personal Project: Bike ](https://github.com/leedh7878/DanielLee_Project_Portfolio/tree/main/Bike_Store_Relational_Database_SQL)
-
-
-
+## [Project 4. SQL Bike Store Relational Database ](https://github.com/leedh7878/DanielLee_Project_Portfolio/tree/main/Bike_Store_Relational_Database_SQL)
 
 ER Diagram:
-
 <img src="Bike_Store_Relational_Database_SQL\image\ER_Diagram.png" width= "75%" height="75%">
 
 Refresh the page if the images are not displayed
