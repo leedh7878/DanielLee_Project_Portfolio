@@ -55,6 +55,7 @@
 - Design and create an ER (Entity-Relationship) diagram to visualize and define relationships between tables in the database schema.
 
 - Practice and enhance SQL skills by performing queries and analysis on the PostgreSQL database.
+
 [SQL Practice](https://github.com/leedh7878/DanielLee_Project_Portfolio/tree/main/Bike_Store_Relational_Database_SQL/src/aggregate.sql)
 
 ER Diagram:
