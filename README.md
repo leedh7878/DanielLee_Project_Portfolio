@@ -50,6 +50,13 @@
 
 ## [Project 4. SQL Bike Store Relational Database ](https://github.com/leedh7878/DanielLee_Project_Portfolio/tree/main/Bike_Store_Relational_Database_SQL)
 
+- Perform ETL (Extract, Transform, Load) operations to consolidate data from multiple Excel files into a PostgreSQL database.
+
+- Design and create an ER (Entity-Relationship) diagram to visualize and define relationships between tables in the database schema.
+
+- Practice and enhance SQL skills by performing queries and analysis on the PostgreSQL database.
+[SQL Practice](https://github.com/leedh7878/DanielLee_Project_Portfolio/tree/main/Bike_Store_Relational_Database_SQL/src/aggregate.sql)
+
 ER Diagram:
 <img src="Bike_Store_Relational_Database_SQL\image\ER_Diagram.png" width= "75%" height="75%">
 
